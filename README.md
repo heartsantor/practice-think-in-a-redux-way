@@ -1,38 +1,70 @@
-<!-- PROJECT LOGO -->
-<br />
- <p align="center">
-    <img src="https://avatars.githubusercontent.com/u/73503432?v=4" alt="Logo" width="80" height="80" />
-    <h3 align="center "><a href="https://learnwithsumit.com/courses/think-in-a-redux-way" target="_blank" >THINK IN A REDUX WAY</a></h3>
-</p>
+# Getting Started with Create React App
 
-<!-- TABLE OF CONTENTS -->
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## ![tableOfContent][tableofcontent-shield] Table of Contents
+## Available Scripts
 
-| CODE RUN                   | CONTACT                    |
-| -------------------------- | -------------------------- |
-| [How to run](#-how-to-run) | [Contact us](#-contact-us) |
+In the project directory, you can run:
 
-<!-- HOW TO RUN -->
+### `npm start`
 
-## ![rocketIcon][rocketicon-shield] How to run
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Different lessons taught in this [Redux Bangla Course by Learn with Sumit](https://learnwithsumit.com/think-in-a-redux-way), are organized in separate branches with naming convention - [**module number**].[**lesson number**]. For example, **Module-1 Lesson-1** source code is shared in **1.1** branch. Just switch to a branch and follow the corresponding branch's README file instruction.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Please follow the below instructions to run different branches of this repository in your machine:
+### `npm test`
 
-1. Login to the GitHub account on which you have been granted access to this repository. If you have purchased the course but didn't get the access to this repository, please contact our support team. You will find contact details below.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-2. Clone this repository -
-   ```sh
-   git clone https://github.com/Learn-with-Sumit/think-in-a-redux-way.git
-   ```
-3. Go to the cloned project directory
-   ```sh
-   cd think-in-a-redux-way
-   ```
-4. Checkout/switch to your desired branch. For example to switch to branch 1.1 -
-   ```sh
-   git checkout 1.1
-   ```
-5. Follow the corresponding branch's README file instruction to run code.
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
