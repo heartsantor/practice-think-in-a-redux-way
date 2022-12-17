@@ -1,3 +1,6 @@
+import Stats from './components/Stats'
+import Counter from './components/Counter'
+
 function App() {
   return (
     <div class="w-screen h-screen p-10 bg-gray-100 text-slate-700">
@@ -5,7 +8,10 @@ function App() {
         Simple Counter Application
       </h1>
 
-      <div class="max-w-md mx-auto mt-10 space-y-5"></div>
+      <div class="max-w-md mx-auto mt-10 space-y-5">
+        <Counter/>
+        <Stats count={1}/>
+      </div>
     </div>
   );
 }
