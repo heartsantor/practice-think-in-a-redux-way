@@ -11,6 +11,12 @@ const initialState = [
     completed: false,
     color: "red",
   },
+  {
+    id: 3,
+    text: "test 3",
+    completed: false,
+    color: "yellow",
+  },
 ];
 
 export default initialState;
